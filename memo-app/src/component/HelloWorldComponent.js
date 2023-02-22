@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react';
 
-function HelloWorldComponent() {
+function HelloWorldComponent(props, {job = 'Developer'}) {
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>Information: {props.firstName} {props.lastName}({props.age}), Job: {job}</h1>
     </div>
-  );
+  )
 }
 
 export default HelloWorldComponent;
+
