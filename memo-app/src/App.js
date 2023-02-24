@@ -1,11 +1,12 @@
 import './App.css';
-import HelloWorldComponent from './component/HelloWorldComponent';
+import ProfileComponent from './component/ProfileComponent2';
 import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <HelloWorldComponent firstName="Andrew" lastName="Brian" age="30"/>
+      <ProfileComponent />
+      {/* <HelloWorldComponent firstName="Andrew" lastName="Brian" age="30"/> */}
     </div>
   );
 }
