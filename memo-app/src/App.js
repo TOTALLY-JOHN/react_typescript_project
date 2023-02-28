@@ -1,13 +1,14 @@
 import './App.css';
 import React from 'react';
-import StudentComponent from './component/StudentComponent';
+import UsernameComponent from './component/UsernameComponent';
 
 function App() {
   return (
     <div className="App">
-      <StudentComponent />
+      <UsernameComponent />
     </div>
   );
 }
 
 export default App;
+
