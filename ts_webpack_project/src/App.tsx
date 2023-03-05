@@ -1,12 +1,12 @@
 import './styles.css';
-import image from './images/background.jpg';
+import Counter from './Counter';
 
 export const App = () => {
   return (
     <div>
-      <h1>React & Typescript & Webpack project</h1>
+      <h1>This is the React & Typescript & Webpack project</h1>
       <h2>Current Mode: {process.env.NODE_ENV}</h2>
-      <img src={image} />
+      <Counter />
     </div>
   ); 
 }
